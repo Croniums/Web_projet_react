@@ -1,0 +1,11 @@
+.buttoncss {
+    background: cornflowerblue;
+    cursor: pointer;
+    padding: 0 10px;
+    border-radius: none;
+}
+
+.buttoncss:hover {
+    cursor: pointer;
+    background: beige;
+}
