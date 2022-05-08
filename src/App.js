@@ -1,10 +1,5 @@
 import * as React from "react";
 import "./App.css";
-import Game from "./pages/game";
-import Home from "./pages/Home";
-import Password from "./pages/Password";
-import Random from "./pages/Random"
-import { useState, useEffect } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -38,7 +33,7 @@ function App() {
               <h1 class="font-bold text-2xl mb-5 ml-3">Pourquoi cette application ?</h1>
               <p class="ml-5">N’avez-vous jamais oublié de vous souvenir d’une date d’anniversaire, un numéro de téléphone ou bien des informations importantes sur quelqu’un ? Et bien cette application regroupe toutes les informations d’on vous aviez besoin.</p>
             </div>
-            <img src="https://zupimages.net/up/22/18/2ba5.png" class="w-52 h-75 ml-24 mt-12 rounded-lg object-cover" id="box"/>
+            <img src="https://zupimages.net/up/22/18/2ba5.png" alt="image1" class="w-52 h-75 ml-24 mt-12 rounded-lg object-cover" id="box"/>
             <div class="w-1/6">
               <h1 class="font-bold text-2xl mb-5 ml-3 mt-12">Vue de l'app</h1>
               <p class="ml-3">Voici un visuel de l'application sur la page principale ou l'on peut observer les profils ainsi que multiples option d'ajout et de suppresion avec un système de filtre.</p>
@@ -56,7 +51,7 @@ function App() {
               <h1 class="font-bold text-2xl mb-5 ml-3 text-red-800 animate-pulse">/!\ Attention l'application n'est pas fonctionnelle entièrement /!\</h1>
               <p class="ml-5 text-red-400 w-5/6">Le projet que vous pourrez observer sur l'application est incomplet ! Multiples fonctionnalités tel que la sauvegarde dans le localstorage, l'attribution de filtre et l'option d'ajout et de suppresion d'éléments sur l'application non pas pus être fait dans les temps malheuresement</p>
             </div>
-            <img src="https://zupimages.net/up/22/18/mqpa.png" class="w-52 h-75 ml-24 mt-12 rounded-lg object-cover"/>
+            <img src="https://zupimages.net/up/22/18/mqpa.png" alt="image2" class="w-52 h-75 ml-24 mt-12 rounded-lg object-cover"/>
             <div class="w-1/6">
               <h1 class="font-bold text-2xl mb-5 ml-3 mt-12">Vue de l'app</h1>
               <p class="ml-3">Voici un visuel de l'application sur la page de Profil. Sur cette dernière nous pouvons éditer les champs afin de rentrer nos informations dans l'application ainsi que les modifier</p>
